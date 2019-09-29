@@ -1,4 +1,4 @@
-package io.github.ringsheep.lostelectroblog.model;
+package io.github.ringsheep.lostelectroblog.model.domain;
 
 import lombok.Data;
 
@@ -6,7 +6,9 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Data
-public class Post {
+public class BlogPost {
+
+    String id;
 
     String title;
 
